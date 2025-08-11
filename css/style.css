@@ -6,9 +6,22 @@
 
 section{
     background-color: bisque;
+
+    display: flex;
+
+    justify-content: center;/*   horizontal (esquerda direita)  */
+    align-items: center; /*   vertical (cima/baixo) */
+    gap: 10px;
+
+    flex-wrap: wrap;
 }
 
 div{
     background-color: brown;
+
+    height: 200px;
+    width: 200px;
+
     border: 3px solid white;
+
 }
