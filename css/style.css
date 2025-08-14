@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-section{
+/* section{ 
     background-color: bisque;
 
     display: flex;
 
-    justify-content: center;/*   horizontal (esquerda direita)  */
-    align-items: center; /*   vertical (cima/baixo) */
+    justify-content: center;/*   horizontal (esquerda direita)  
+    align-items: center; /*   vertical (cima/baixo) 
     gap: 10px;
 
     flex-wrap: wrap;
@@ -24,4 +24,36 @@ div{
 
     border: 3px solid white;
 
+}*/
+
+section{
+    background-color: bisque;
+    height: 100vh;
+
+    display: flex;
+
+    padding: 10px;
+    gap: 10px;
+
+
 }
+
+div{
+    height: 200px;
+    
+    border: 1px solid white;
+    background-color: brown;
+}
+
+#bloco1{
+    /* grow shrink basis */
+    flex: 1 1 200px;
+}
+
+#bloco2{
+    flex: 6 1 200px;
+}
+
+
+
+
